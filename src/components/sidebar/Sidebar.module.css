@@ -1,0 +1,25 @@
+.nav ul {
+  list-style: none;
+  margin-top: 2rem;
+  padding: 2.5rem 5rem;
+  flex: 1;
+  height: 100%;
+  position: relative;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: #ececec;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav a:global(.active) {
+  color: #00c46a;
+}
+
+.nav li {
+  margin-bottom: 2rem;
+}
